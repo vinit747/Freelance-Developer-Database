@@ -1,0 +1,197 @@
+/*nav bar*/
+*
+{
+	margin:0px;
+	padding:0px;
+}
+
+nav
+{
+	padding:0px 10px 5px 5px;
+	background-color:#2E3740;
+}
+
+nav sub
+{
+	color:orange;
+}
+
+nav a
+{
+	text-decoration:none;
+	color:white;
+	font-size:18px;
+	font-family:Tahoma;
+	padding:10px;
+	text-align:center;
+}
+
+nav a:hover
+{
+	background-color:orange;
+	color:#515151;
+	transition:all 0.6s;
+	opacity:0.9;
+	filter:alpha(opacity:90)
+}
+
+
+#number2
+{
+	color:orange;
+}
+
+#logotext
+{
+	font-family: 'Sofia', cursive;
+	font-size:25px;
+	color:white;
+}
+#search_box
+{
+	width: 130px;
+	height:30px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+	background-image:url(SearchIcon.png);
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 5px 20px 6px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.5s ease-in-out;
+	margin-left:100px;
+}
+
+#search_box:hover
+{
+	border:3px solid orange;
+	transition:all 0.5s;
+}
+
+#search_box:focus
+{
+	width: 300px;
+	border:3px solid orange;
+}
+
+#dropdown_search select option
+{
+	height:25px;
+	width:100px;
+	font-size: 16px;
+	font-family:Tahoma;
+	border-radius:4px;
+}
+
+.SignIn
+{
+	float:right;
+}
+
+.SignUp
+{
+	float:right;
+	background-color:orange;
+}
+
+.Home
+{
+	float:right;
+}
+/*-nav bar*/
+
+#sign_up_box_wrapper
+{
+	margin-top:50px;
+	margin-left:400px;
+	padding-top:50px;
+}
+
+#sign_up_box
+{
+	width:350px;
+	height:580px;
+	border:2px solid lightgrey;
+	padding-top:20px;
+	padding-left:10%;
+	border-radius:2px;
+}
+
+#sign_up_logo
+{
+	border-radius:100px;
+	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	margin-top:-100px;
+	margin-left:70px;
+	margin-bottom:20px;
+}
+
+.formfields
+{
+	margin-bottom:15px;
+	padding-left:30px;
+	width:220px;
+	height:30px;
+	border:2px solid lightgrey;
+	border-radius:2px;
+	font-family:Tahoma;
+	font-size:16px;
+}
+
+.formfields:hover
+{
+	border:2px solid #2E3740;
+}
+
+.formfields:focus
+{
+	border:2px solid orange;
+}
+
+#dropdown_country select option
+{
+	height:30px;
+	width:235px;
+	font-size: 16px;
+	font-family:Tahoma;
+	border-radius:4px;
+	color:grey;
+}
+
+.shakeButton
+{
+	margin-left:45px;
+	width:150px;
+	height:50px;
+	border-radius:10px;
+	font-size:25px;
+	color:white;
+	background-color:darkorange;
+	transition:all 1s;	
+}
+
+.shakeButton:hover
+{
+	 -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+#signup_bottom
+{
+	color:grey;
+	float:center;
+}
+
+#signup_bottom:hover
+{
+	color:#2E3740;
+	float:center;
+}
+
+form a
+{
+	text-decoration:none;
+}

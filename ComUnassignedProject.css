@@ -1,0 +1,155 @@
+*
+{
+	margin:0px;
+	padding:0px;
+}
+
+#number2
+{
+	color:orange;
+}
+
+#logotext
+{
+	font-family: 'Sofia', cursive;
+	font-size:25px;
+	color:white;
+}
+
+#search_box
+{
+	width: 130px;
+	height:30px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+	background-image:url(SearchIcon.png);
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 5px 20px 6px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.5s ease-in-out;
+	margin-left:100px;
+}
+
+#search_box:hover
+{
+	border:3px solid orange;
+	transition:all 0.5s;
+}
+
+#search_box:focus
+{
+	width: 300px;
+	border:3px solid orange;
+}
+
+#dropdown_search select option
+{
+	height:25px;
+	width:100px;
+	font-size: 16px;
+	font-family:Tahoma;
+	border-radius:4px;
+}
+
+#signout
+{
+	float:right;
+}
+
+
+
+#nav1
+{
+	padding:0px 10px 5px 5px;
+	background-color:#2E3740;
+}
+
+#nav1 sub
+{
+	color:orange;
+}
+
+#nav1 a
+{
+	text-decoration:none;
+	color:white;
+	font-size:18px;
+	font-family:Tahoma;
+	margin-top:-3px;
+	text-align:center;
+}
+
+#nav1 a:hover
+{
+	background-color:orange;
+	color:#515151;
+	transition:all 0.6s;
+}
+
+#nav2
+{
+	padding-top:5px;
+	border-bottom:2px solid lightgrey;
+	border-radius:50px;
+}
+
+#nav2 a
+{
+	text-decoration:none;
+	padding-right:50px;
+	padding-left:20px;
+	font-family:Tahoma;
+	color:grey;
+}
+
+#nav2 a:hover
+{
+	color:orange;
+}
+
+#nav2 a:nth-child(1)
+{
+	color:orange;
+}
+
+
+#user
+{
+	float:right;
+}
+
+#assign_button
+{
+	float:right;
+	margin-right:20px;
+	background-color:orange;
+	padding-top:5px;
+	padding-bottom:5px;
+	border-radius:5px;
+}
+
+#unassigned_project_no
+{
+	font:16px Tahoma;
+	margin-left:125px;
+	margin-top:30px;
+}
+
+#unassigned_project
+{
+	margin-left:125px;
+	padding-left:10px;
+	border:2px solid lightgrey;
+	width:1000px;
+	height:150px;
+	font-family:Tahoma;
+}
+
+#unassigned_project:hover
+{
+	border:2px solid orange;
+}
